@@ -1,0 +1,26 @@
+/*
+**   mini reset
+*/
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul, li, a {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	border-top: 1px solid transparent; /* rimuove la fastidiosa scrollbar orizzontale */
+	font-family: helvetica, verdana, arial, sans-serif;
+	font-size: .9rem;
+	font-weight: normal;
+	font-style: normal;
+}
+/* fine mini reset */
